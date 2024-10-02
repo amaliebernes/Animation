@@ -61,4 +61,22 @@
   height: 20px;
   background-color: red;
   border-radius: 10px;
+
+
+  animation-name: bouncing;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bouncing {
+  0% {
+
+    transform: translateY(0px);
+  }
+
+  100% {
+
+    transform: translateY(80px);
+  }
+
 }
