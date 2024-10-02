@@ -92,3 +92,21 @@
   }
 
 }
+
+.slidin-right {}
+
+.slidin-left {
+  animation-name: slidin-left;
+  animation-duration: 1000ms;
+  --from-offset: 100vw;
+
+
+}
+
+@keyframes slidin-left {
+
+  0% {
+
+    transform: translateX(var(--from-offset));
+  }
+}
