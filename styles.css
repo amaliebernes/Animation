@@ -4,12 +4,44 @@
   color: aliceblue;
   padding: 1rem 2rem;
 
-  transition-duration: 2000ms;
+  transition-duration: 500ms;
+  /*transition-delay: 1000ms;*/
+  transition-property: scale;
+  transition-timing-function: ease-in-out;
 
 }
+
 
 .transition:hover {
 
   background-color: greenyellow;
   color: black;
+  scale: 1.1;
+}
+
+.transition:active {
+  background-color: rgb(8, 8, 8);
+  color: aliceblue;
+  scale: 0.9;
+}
+
+.hover {
+  transition: all 300ms ease-in-out;
+
+
+}
+
+.hover:hover {
+
+  scale: 1.02;
+}
+
+.title {
+
+  transition: all 300ms ease-in-out;
+}
+
+.title:hover {
+
+  scale: 1.02;
 }
