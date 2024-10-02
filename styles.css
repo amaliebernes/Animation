@@ -46,6 +46,16 @@
   scale: 1.02;
 }
 
+.anim {
+
+  transition: all 300ms ease-in-out;
+}
+
+.anim:hover {
+
+  scale: 1.02;
+}
+
 /*Animation styling*/
 
 .animation-container {
