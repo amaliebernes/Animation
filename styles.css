@@ -45,3 +45,20 @@
 
   scale: 1.02;
 }
+
+/*Animation styling*/
+
+.animation-container {
+
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
+.ball {
+  margin: auto;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 10px;
+}
